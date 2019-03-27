@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 23:56:50 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/26 23:58:39 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Login to server, and your system as the root user:
+# FIRST: ssh root@ipaddress
+#
+# Create new user using the [adduser] command.
+# SECOND: ex. adduser [username]
+# 
+# THIRD: create password
+# ex. root123456
+#
+# FORTH: Add the new user to the sudo group
+# su - [username] or su -[username]
+#
+# if ssh killed use: sudo service ssh restart
+
+# 23. Explain how connect yourself as new user.
+# (With graphic session and ssh session)

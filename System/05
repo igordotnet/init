@@ -1,0 +1,26 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:24:14 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:27:40 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+sudo service ssh status
+
+# 5. Name the command that determines the state of the SSH service.
+# 
+# Install this before running command
+# ...
+# sudo apt-get update
+# sudo apt-get upgrade
+# sudo apt-get purge openssh-server
+# sudo apt-get install openssh-server
+# ...
+# Usage
+# sudo service ssh {start|stop|reload|force-reload|restart|try-restart|status}

@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    19                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 20:16:34 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/26 20:16:43 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+systemctl list-units --type service --all
+
+# 19. List all services which are started at boot time
+# and name this kind of services
+# ...
+# all services which are started at boot time and name this kind of services
+# or: sudo systemctl list-units --type service --all
+

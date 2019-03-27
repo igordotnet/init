@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:13:00 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:13:14 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+cat /etc/hostname
+
+# 3. What file has to be modified to make it permanent?
+# ...
+# Modify /etc/hostname to make hostname changes permanent
+# cat /etc/hostname display current hostname

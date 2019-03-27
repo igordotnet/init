@@ -1,0 +1,32 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:36:11 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:40:55 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+
+# 8. What file contains the RSA keys of systems that are authorized to
+# connect via SSH?
+# ...
+# Before viewing the RSA keys, keys must be generated
+# ...
+# How to generate
+# ...
+# ssh-keygen
+#
+# default name is: /home/demo/.ssh/id_rsa
+# ~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE!
+# ~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE!
+# cat ~/.ssh/id_rsa or cat ~/.ssh/id_rsa.pub
+# accoring to people (and PDF)  RSA should be located in '~/.ssh/authorized_keys' but not outdated
+# https://www.digitalocean.com/community/tutorials/
+# link cont: ssh-essentials-working-with-ssh-servers-clients-and-keys

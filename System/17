@@ -1,0 +1,39 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    17                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/25 19:56:35 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/26 20:11:18 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+ssh user@ipaddress
+
+# 17. Find the command that allows you to connect via
+# ssh on the VM.(In parallel with the graphic session)
+# ...
+# First configure SSH server. Link Below
+# https://linuxconfig.org/enable-ssh-root-login-on-debian-linux-server
+# ...
+# Steps to success!
+# ...
+# FIRST: Get ip by: ip a
+# Additional login help
+# https://wpguru.co.uk/2014/02/
+# part of above link: how-to-ssh-into-a-virtual-machine-in-parallels-desktop/
+#
+# SECOND: chmod 777 /etc/ssh/sshd_configs
+#
+# THIRD: vi /etc/ssh/sshd_configs
+# SET:
+# #PermitRootLogin prohibit-password
+# TO:
+# PermitRootLogin yes
+#
+# FORTH: Restart service: sudo service ssh restart
+#
+# FIFTH: change root password: sudo passwd root: then enter new password

@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/25 18:27:40 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/25 18:29:01 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+cron
+
+# 16. Find the service which makes it possible to run
+# specific tasks following a regular schedule.
+# ...
+# simple example: crontab -l or sudo crontab -l
+# cron: schedule updates, and much more.
+# https://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/

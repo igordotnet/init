@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/25 18:23:37 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/25 18:24:40 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+sudo tail -f /var/log/syslog &
+
+# 14. Run the ‘tail -f /var/log/syslog‘ command in background
+# ...
+# Additional commands at: https://kb.iu.edu/d/afnz
+# check status enter: [jobs] or [sudo jobs]
+# To bring a background process to the foreground, enter: fg

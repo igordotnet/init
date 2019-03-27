@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/27 00:03:13 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/27 00:03:18 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+read -p "Would you like to shutdown? (y/n)?" CONT
+if [ "$CONT" = "y" ]; then
+	echo "BYE";
+	sudo /sbin/shutdown -r now;
+else
+	 echo "OK NO SLEEP";
+fi
+
+# 3. Three’s a Charm. Write a script of you choice.

@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:10:12 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:11:31 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+sudo hostname igoriscool
+
+# 2. What command can you use to rename your system?
+# ...
+# hostname to temporary change
+# not hostname hasn't changed (sh 03) to view actual hostname

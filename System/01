@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:09:23 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:09:37 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+cat /etc/debian_version
+
+# 1. In what file can you find the installed version of your Debian?
+# ...
+# Debian version is located at etc/debian_version
+# to display version run command: cat /etc/debian_version

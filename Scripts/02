@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/27 00:03:00 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/27 00:03:01 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+sudo deluser --remove-home bgonzale
+
+# 2. Write a script which delete an ACTIVE user on the VM
+# ...
+# first create user using: sudo adduser [username]
+# deluser --remove-home [username]

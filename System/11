@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:42:46 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:42:59 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+df -h
+
+# 11. Name the command that displays the available space left
+# and used on the system in an humanly understandable way.
+# ...
+# alternet: sudo df -h

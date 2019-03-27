@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 01:31:29 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 01:31:53 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+cat /etc/hosts
+
+# 14. What file contains the local DNS entries?
+# ...
+# /etc/hosts contains local DNS entries
+# cat cat /etc/hosts displays DNS entries

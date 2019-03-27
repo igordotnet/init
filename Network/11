@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 01:24:05 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 01:24:13 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+echo "nat (10.90.1.11)";
+
+# 11. Use the output of the previous command to find the name and IP address
+# of the device that makes the link between you (local network) and the
+# outside world
+# ...
+# nat: Network Address Translation (NAT) links
+# local network and external networks

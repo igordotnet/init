@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/22 19:13:38 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/22 19:13:53 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+dig slash16.org | grep SERVER | awk '{print $3}' | awk -F '[()]' '{print $2}'
+
+# 5. Identify the IP address of the DNS that responds to the
+# following url: slash16.org

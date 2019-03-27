@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/27 00:02:40 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/27 00:02:46 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+cat /etc/passwd | awk -F  ":" '{print $1 "   " $3 "   " $6}' | column -t
+
+# 1. Write a script which displays only the login, UID and Path
+# of each entry of the /etc/passwd file.
+# ...
+# or:
+# sudo cat /etc/passwd | awk -F  ":" '{print $1 "   " $3 "   " $6}' | column -t

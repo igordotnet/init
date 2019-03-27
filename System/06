@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/23 20:28:06 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/23 20:30:35 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin.bash
+sudo service ssh restart
+
+# 6. Name the command that reboots the SSH service.
+# ...
+# Usage
+# sudo service ssh {start|stop|reload|force-reload|restart|try-restart|status}

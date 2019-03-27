@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: iglucic <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/22 19:07:38 by iglucic           #+#    #+#              #
+#    Updated: 2019/03/22 19:07:56 by iglucic          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+networksetup -getinfo Ethernet
+
+# 2. Identify and display the Ethernet interface characteristics:
+# (a) Identify broadcast address
+# (b) Identify all IP adresses which are part of the same subnet
